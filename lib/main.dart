@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:pet_shop_ui/pages/getstarted.dart';
 
 void main() {
-  runApp(CatAdoptApp());
+  runApp(const CatAdoptApp());
 }
 
 class CatAdoptApp extends StatelessWidget {
@@ -10,8 +11,9 @@ class CatAdoptApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return GetMaterialApp(
+    return const GetMaterialApp(
       debugShowCheckedModeBanner: false,
+      home: GetStartedPage(),
     );
   }
 }
