@@ -1,4 +1,10 @@
+import 'package:card_swiper/card_swiper.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:pet_shop_ui/components/categories_list.dart';
+import 'package:pet_shop_ui/components/pet_scroll.dart';
+import 'package:pet_shop_ui/controllers/pets_controler.dart';
+
 import 'package:pet_shop_ui/styles/colors.dart';
 
 class HomePage extends StatelessWidget {
@@ -51,15 +57,14 @@ class HomePage extends StatelessWidget {
               const SizedBox(
                 height: 20,
               ),
-              SizedBox(
-                height: 80,
-                child: ListView(
-                  scrollDirection: Axis.horizontal,
-                  children: const [
-                    Text("data"),
-                  ],
+              PetCategoriesList(),
+              PetScroll(),
+              Expanded(
+                flex: 2,
+                child: Container(
+                  color: kcblack,
                 ),
-              )
+              ),
             ],
           ),
         ),

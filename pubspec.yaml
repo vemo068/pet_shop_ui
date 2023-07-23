@@ -38,6 +38,7 @@ dependencies:
   cupertino_icons: ^1.0.2
   get:
   slide_to_act: ^2.0.1
+  card_swiper : ^3.0.0
 
 dev_dependencies:
   flutter_test:

@@ -1,12 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:pet_shop_ui/components/start_grid.dart';
+import 'package:pet_shop_ui/controllers/pets_controler.dart';
 import 'package:pet_shop_ui/pages/home.dart';
 import 'package:pet_shop_ui/styles/colors.dart';
 import 'package:slide_to_act/slide_to_act.dart';
 
 class GetStartedPage extends StatelessWidget {
-  const GetStartedPage({super.key});
+  PetsController petsController = Get.put(PetsController());
+   GetStartedPage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -54,7 +56,7 @@ class GetStartedPage extends StatelessWidget {
             child: SizedBox(
               child: SlideAction(
                 onSubmit: () {
-                  Get.to(const HomePage());
+                  Get.to( HomePage());
                 },
                 sliderRotate: false,
                 text: "      Get Started",

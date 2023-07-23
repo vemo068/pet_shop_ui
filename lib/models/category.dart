@@ -1,8 +1,8 @@
 import 'package:pet_shop_ui/models/pet.dart';
 
-class Category {
+class PetCategory {
   final String name;
   final List<Pet> pets;
 
-  Category( {required this.pets,required this.name});
+  PetCategory({required this.pets, required this.name});
 }
