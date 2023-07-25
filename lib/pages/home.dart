@@ -1,9 +1,6 @@
-import 'package:card_swiper/card_swiper.dart';
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
 import 'package:pet_shop_ui/components/categories_list.dart';
 import 'package:pet_shop_ui/components/pet_scroll.dart';
-import 'package:pet_shop_ui/controllers/pets_controler.dart';
 
 import 'package:pet_shop_ui/styles/colors.dart';
 
@@ -61,8 +58,28 @@ class HomePage extends StatelessWidget {
               PetScroll(),
               Expanded(
                 flex: 2,
-                child: Container(
-                  color: kcblack,
+                child: Center(
+                  child: Padding(
+                    padding: const EdgeInsets.all(20),
+                    child: Container(
+                      height: 60,
+                      decoration: BoxDecoration(
+                        color: kcblack,
+                        borderRadius: BorderRadius.circular(18),
+                      ),
+                      child: const Center(
+                        child: Text(
+                          "See More",
+                          softWrap: true,
+                          style: TextStyle(
+                            color: kcwhite,
+                            fontWeight: FontWeight.bold,
+                            fontSize: 20,
+                          ),
+                        ),
+                      ),
+                    ),
+                  ),
                 ),
               ),
             ],
