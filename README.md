@@ -1,16 +1,18 @@
 # pet_shop_ui
+# Flutter UI from Dribbble
 
-A new Flutter project.
+## Page 1
 
-## Getting Started
+![Page 1](assets/md_images/Frame%206.png)
+This is the first page of my Flutter UI. It contains a beautiful layout with various widgets.
 
-This project is a starting point for a Flutter application.
+## Page 2
 
-A few resources to get you started if this is your first Flutter project:
+![Page 2](assets/md_images/Frame%207.png)
+The second page showcases a stunning design with smooth animations and user interactions.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Page 3
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Page 3](assets/md_images/Frame%208.png)
+The final page is a delightful combination of colors and typography, creating an eye-catching UI.
+
